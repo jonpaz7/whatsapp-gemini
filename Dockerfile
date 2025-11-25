@@ -39,7 +39,7 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
 # Run as non-root user for security
-RUN useradd -m -u 1000 botuser && chown -R botuser:botuser /app
+RUN useradd -m botuser && chown -R botuser:botuser /app
 USER botuser
 
 # Start the bot
