@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+.env
+.wwebjs_auth
+.wwebjs_cache
+qrcode.png
+*.log
+.git
+.gitignore
+README.md
+.DS_Store
